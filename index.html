@@ -12,35 +12,15 @@
   <script src="https://kit.fontawesome.com/9232fefe23.js" crossorigin="anonymous"></script>
   <!-- tailwind css cdn -->
    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-        colors: {
-          clifford: '#da373d',
-        },
-      },
-    },
+ <style type="text/tailwindcss">
+  @theme {
+    --color-clifford: #da373d;
+    --font-manrope: "Manrope", sans-serif;
   }
-  </script>
-  <style>
-  .manrope-font {
-  font-family: "Manrope", sans-serif;
-}
-a{
-  list-style: none;
-}
+</style>
 
-/* input {
-  border: none;
-  outline: none;
-  border-bottom: 1px solid #424242; /* Subtle bottom line design */
-  margin-bottom: 15px;
-} */
-
-  </style>
 </head>
-<body class="manrope-font">
+<body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-24">
       <header class="lg:flex pt-10 mb-20 items-center">
         <!-- Text content  -->
@@ -211,7 +191,7 @@ a{
                 <img src="images/news-2.png" alt="" class="p-4">
                 <div class="px-4 py-4">
                     <small class="font-medium text-[#777777] text-sm ">Feb 05, 2027</small>
-                <h2 class="font-extrabold text-xl ">Collecting 8 points for discount</h2>
+                <h2 class="font-extrabold text-xl ">Collecting 8 points for <br> discount</h2>
                 <p class="text-[#777777] font-medium text-sm ">There are many variations of passages of Lorem Ipsum available.</p>
                 <a class="text-sm font-bold " href="#">Learn More</a>
                 </div>
@@ -221,7 +201,7 @@ a{
                 <img src="images/news-3.png" alt="" class="p-4">
                <div class="px-4 py-4">
                  <small class="font-medium text-[#777777] text-sm ">Feb 05, 2027</small>
-                <h2 class="font-extrabold text-xl ">Collecting 8 points for discount</h2>
+                <h2 class="font-extrabold text-xl ">Collecting 8 points for <br> discount</h2>
                 <p class="text-[#777777] font-medium text-sm ">There are many variations of passages of Lorem Ipsum available.</p>
                 <a class="text-sm font-bold " href="#">Learn More</a>
                </div>
