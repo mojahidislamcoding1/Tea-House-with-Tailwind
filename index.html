@@ -30,12 +30,13 @@
 a{
   list-style: none;
 }
-input {
+
+/* input {
   border: none;
   outline: none;
   border-bottom: 1px solid #424242; /* Subtle bottom line design */
   margin-bottom: 15px;
-}
+} */
 
   </style>
 </head>
@@ -273,8 +274,9 @@ input {
             </div>
             <div>
               <h1  class="font-semibold text-[20px] text-[#1C1C1C] mb-3">Subscribe to our newsletter</h1>
-              <label for="">Email Addrees</label><br>
-              <input type="email" name="" id="" > 
+              
+              <input type="email" name="" id="" placeholder="Email Address" class=" mb-6 bg-transparent border-b-2 border-black w-4/6 md:w-5/6" > 
+              <i class="fa-solid fa-angle-right w-7 h-7 bg-orange-600 inline-flex rounded-full text-white justify-center items-center px-1 py-1"></i>
               <div class="flex items-center gap-6 justify-start">
                 <img src="icons/facebook.png" alt="" class="grayscale">
                 <img src="icons/insta.png" alt="" class="grayscale">
@@ -282,6 +284,7 @@ input {
               </div>
             </div>
         </div>
+        <p class="text-center mt-10">© 2027 UIDesign.to - All rights reserved.</p>
       </div>
     </footer>
 </body>
