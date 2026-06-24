@@ -27,6 +27,16 @@
   .manrope-font {
   font-family: "Manrope", sans-serif;
 }
+a{
+  list-style: none;
+}
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #424242; /* Subtle bottom line design */
+  margin-bottom: 15px;
+}
+
   </style>
 </head>
 <body class="manrope-font">
@@ -101,7 +111,7 @@
 
        <!-- Great Tea section -->
         <section class="mb-24 mt-20">
-          <div class="grid grid-cols-1 lg:grid-cols-2">
+          <div class="grid grid-cols-1 gap-20 lg:grid-cols-2">
             <!-- Image section  -->
              <div class="grid grid-cols-2 grid-rows-3 gap-4 w-5/6">
                  <div class="h-38 bg-gradient-to-r from-red-100 to bg-red-50 rounded-xl">
@@ -178,6 +188,101 @@
               </div>
           </div>
          </section>
+         <!-- Events Section  -->
+          <section class="mb-20">
+            <div class="text-center">
+               <h1 class="font-extrabold text-4xl">News & Events</h1>
+            <p class="font-medium text-sm text-[#777777] mt-2 mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+           
+            <!-- cart section  -->
+             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div class="rounded-xl border border-gray-200">
+                <img src="images/news-1.png" alt="" class="p-4">
+                <div class="px-4 py-4">
+                  <small class="font-medium text-[#777777] text-sm ">Feb 05, 2027</small>
+                <h2 class="font-extrabold text-xl ">Collecting 8 points for <br> discount</h2>
+                <p class="text-[#777777] font-medium text-sm ">There are many variations of passages of <br> Lorem Ipsum available.</p>
+                <a class="text-sm font-bold " href="#">Learn More</a>
+                </div>
+              </div>
+              <div class="border border-gray-200 rounded-xl">
+                <img src="images/news-2.png" alt="" class="p-4">
+                <div class="px-4 py-4">
+                    <small class="font-medium text-[#777777] text-sm ">Feb 05, 2027</small>
+                <h2 class="font-extrabold text-xl ">Collecting 8 points for discount</h2>
+                <p class="text-[#777777] font-medium text-sm ">There are many variations of passages of Lorem Ipsum available.</p>
+                <a class="text-sm font-bold " href="#">Learn More</a>
+                </div>
+              
+              </div>
+              <div class="border border-gray-200 rounded-xl">
+                <img src="images/news-3.png" alt="" class="p-4">
+               <div class="px-4 py-4">
+                 <small class="font-medium text-[#777777] text-sm ">Feb 05, 2027</small>
+                <h2 class="font-extrabold text-xl ">Collecting 8 points for discount</h2>
+                <p class="text-[#777777] font-medium text-sm ">There are many variations of passages of Lorem Ipsum available.</p>
+                <a class="text-sm font-bold " href="#">Learn More</a>
+               </div>
+              </div>
+             </div>
+          </section>
     </main>
+
+    <footer class="bg-orange-100 text-[#494949] py-10 px-4 md:px-16">
+      <div class="max-w-screen-xl mx-auto px-16 lg:px-24">
+        <!-- Logo section  -->
+        <div class="flex items-center justify-between mb-14">
+          <img src="images/cup.png" alt="">
+          <div class=" flex flex-col md:flex-row gap-8 items-center">
+            <p>Ready to get strated?</p>
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 text-white px-5 py-2 rounded-md font-bold">Get Started</button>
+          </div>
+        </div>
+        <!-- Logo section end  -->
+          <!-- main footer started  -->
+
+        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 justify-center">
+          <!-- Link-1  -->
+          <div>
+            <h1 class="font-semibold text-[20px] text-[#1C1C1C] mb-3">Quick Links</h1>
+              <ul >
+                <li class="mb-1"><a href="">Home</a></li>
+                <li class="mb-1"><a href="">About Us</a></li>
+                <li class="mb-1"><a href="">Insurance </a></li>
+                <li class="mb-1"><a href="">Privacy Policy</a></li>
+              </ul>
+          </div>
+          <!-- Link-2  -->
+           <div>
+            <h1  class="font-semibold text-[20px] text-[#1C1C1C] mb-3">Our Service</h1>
+            <ul>
+              <li class="mb-1"><a href="">Life Insurance</a></li>
+              <li class="mb-1"><a href="">Car Insurance</a></li>
+              <li class="mb-1"><a href="">Health Insurance</a></li>
+              <li class="mb-1"><a href="">House Insurance</a></li>
+            </ul>
+           </div>
+           <!-- Link-3  -->
+            <div >
+              <h1  class="font-semibold text-[20px] text-[#1C1C1C] mb-3">Help</h1>
+                <ul>
+                  <li class="mb-1"><a href="">FAQs</a></li>
+                  <li class="mb-1"><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+              <h1  class="font-semibold text-[20px] text-[#1C1C1C] mb-3">Subscribe to our newsletter</h1>
+              <label for="">Email Addrees</label><br>
+              <input type="email" name="" id="" > 
+              <div class="flex items-center gap-6 justify-start">
+                <img src="icons/facebook.png" alt="" class="grayscale">
+                <img src="icons/insta.png" alt="" class="grayscale">
+                <img src="icons/twitter.png" alt="" class="grayscale">
+              </div>
+            </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
